@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM DIA!!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+.button {
+    width:100px;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd049;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+
+}
+</style>
+<body>
+
+<button class="button" onmouseover="moveButton(this)">NÃO</button>
+<script>
+    function moveButton(x) {
+        marginX = Math.floor(Math.random()*500)
+        marginY = Math.floor(Math.random()*500)
+
+        x.style.margin = marginY.toString() + 'px ' + marginX.toString() + 'px'
+ }
+</script>
+<div class="container">
+    <div class="popup">
+        <img src="gatto.jpg.png">
+        <h2>oioioi Maria Ruth </h2>
+        <audio controls>
+            <source src="heaven.mp3" type="audio/x-mp3">
+
+        </audio>
+        <p>Quer sair comigo nesse sabádo??? </p>
+        <a href="https://saint2.su/embed/hgZmALsSJ6m"><button type="button">SIM</button></a>
+     </div> 
+    </div>
+ 
+
+    
+</body>
+</html>
